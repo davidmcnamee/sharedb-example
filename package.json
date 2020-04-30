@@ -1,0 +1,23 @@
+{
+  "name": "nextjs-server",
+  "version": "1.0.0",
+  "description": "A sample server made with Next.js framework (using express)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "next": "9.3.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [
+    "next",
+    "express",
+    "nextjs"
+  ]
+}
